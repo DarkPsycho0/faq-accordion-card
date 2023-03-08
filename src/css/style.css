@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    background: rgb(101, 101, 231);
+    background: linear-gradient(0deg, rgba(101, 101, 231, 1) 0%, rgba(175, 103, 233, 1) 100%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.card{
+    background-color: #ffffff;
+    display: flex;
+    padding: 80px 2px;
+    width: 920px;
+    height: 510px;
+    border-radius: 20px;
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -575px -295px;
+    position: relative;
+}
+.card .woman{
+    position: relative;
+    top: -5px;
+    left: -85px;
+    width: 472px;
+    height: 359px;
+}
+.card .box{
+    position: absolute;
+    left: -93px;
+    top: 210px;
+}
+.card div h1{
+    font-size: 30px;
+    margin-top: -15px;
+    margin-bottom: 35px;
+    color: hsl(238, 29%, 16%);
+}
+.item{
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+    width: 350px;
+}
+.item .question{
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    background-image: url(../images/icon-arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    margin: 13px 0;
+    color: hsl(237, 12%, 33%);
+    transition: 0.3s ease-in-out;
+}
+.item .question.bold{
+    font-weight: 700;
+    color: hsl(238, 29%, 16%);
+}
+.item .question:hover{
+    color: hsl(14, 88%, 65%);
+}
+.item .anwser {
+    display: none;
+    margin-bottom: 17px;
+    line-height: 18px;
+    color: hsl(240, 6%, 50%);
+}
+.item .anwser.ativo{
+    display: block;
+}
