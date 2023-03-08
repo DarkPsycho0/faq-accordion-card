@@ -60,10 +60,6 @@ body {
     color: hsl(237, 12%, 33%);
     transition: 0.3s ease-in-out;
 }
-.item .question.bold{
-    font-weight: 700;
-    color: hsl(238, 29%, 16%);
-}
 .item .question:hover{
     color: hsl(14, 88%, 65%);
 }
@@ -73,6 +69,10 @@ body {
     line-height: 18px;
     color: hsl(240, 6%, 50%);
 }
-.item .anwser.ativo{
+.item.ativo .question{
+    font-weight: 700;
+    color: hsl(238, 29%, 16%);
+}
+.item.ativo .anwser{
     display: block;
 }
