@@ -1,0 +1,60 @@
+@media(max-width:768px){
+    .card{
+        flex-direction: column;
+        width: 500px;
+        height: 575px;
+        background-image: url(../images/bg-pattern-mobile.svg);
+        background-position: 50% 5%;
+        padding: 25px;
+    }
+    .card .box{
+        display: none;
+    }
+    .card .woman{
+        height: 120px;
+    }
+    .card .woman img{
+        display: block;
+        width: 240px;
+        position: absolute;
+        top: -15%;
+        left: 26%;
+    }
+    .card div h1{
+        text-align: center;
+    }
+    .qea{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .item .seta{
+        height: 50px;
+    }
+}
+@media(max-width:425px){
+    .card{
+        background-position: 54% 3%;
+        width: 375px;
+    }
+    .card .woman img{
+        left: 20%;
+    }
+    .item{
+        width: 300px;
+    }
+}
+@media(max-width:375px){
+    .card{
+        width: 320px;
+    }
+    .card .woman img{
+        left: 14%;
+    }
+    .item{
+        width: 280px;
+    }
+    .item .question{
+        font-size: 14px;
+    }
+}
