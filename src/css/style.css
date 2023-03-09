@@ -22,22 +22,19 @@ body {
     width: 920px;
     height: 510px;
     border-radius: 20px;
-    background-image: url(../images/bg-pattern-desktop.svg);
+    background-image: url(../images/illustration-woman-online-desktop.svg), url(../images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
-    background-position: -575px -295px;
+    background-position: -19% 48%, 1260% 67%;
     position: relative;
 }
 .card .woman{
-    position: relative;
-    top: -5px;
-    left: -85px;
     width: 472px;
     height: 359px;
 }
 .card .box{
     position: absolute;
-    left: -93px;
-    top: 210px;
+    left: -10%;
+    top: 40%;
 }
 .card div h1{
     font-size: 30px;
@@ -49,16 +46,27 @@ body {
     border-bottom: 1px solid hsl(240, 5%, 91%);
     width: 350px;
     cursor: pointer;
+    position: relative;
 }
 .item .question{
     font-size: 15px;
     font-weight: 400;
     width: 100%;
+    margin: 15px 0;
+    color: hsl(237, 12%, 33%);
+}
+.item .seta{
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: 0;
     background-image: url(../images/icon-arrow-down.svg);
     background-repeat: no-repeat;
-    background-position: 100% 100%;
-    margin: 13px 0;
-    color: hsl(237, 12%, 33%);
+    background-position: 50% 50%;
+    position: absolute;
+}
+.item.ativo .seta{
+    transform: rotate(180deg);
 }
 .item .anwser {
     display: none;
