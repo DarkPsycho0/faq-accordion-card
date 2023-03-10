@@ -12,7 +12,28 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Hide/Show the answer to a question when the question is clicked
 
-<h2 align="center">
-    🚧 🏗️ under construction🏗️ 🚧
-</h2>
-<img src="./src/images/Page_Under_Construction.png">
+#### Desktop Screenshot 🖥️
+
+<img src="./src/images/desktop-screenshot.png">
+
+#### With Hover
+<img src="./src/images/with-hover.png">
+
+#### Question Open
+
+<img src="./src/images/question-open.png">
+
+#### Mobile Screenshot 📱
+
+<img src="./src/images/mobile-screenshot.png">
+
+### link 🔗
+
+- Live Site URL: https://lkiryu.github.io/faq-accordion-card/
+
+### Built with 🛠️
+- HTML5
+- CSS
+---
+### Author 👨‍💻
+ Made by Matheus Antonio
