@@ -34,6 +34,7 @@ Users should be able to:
 ### Built with 🛠️
 - HTML5
 - CSS
+- JS
 ---
 ### Author 👨‍💻
  Made by Matheus Antonio
